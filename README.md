@@ -1,5 +1,4 @@
-Hari Sekhon - DevOps Python Tools
-=================================
+# Hari Sekhon - DevOps Python Tools
 
 [![GitHub stars](https://img.shields.io/github/stars/harisekhon/devops-python-tools?logo=github)](https://github.com/HariSekhon/DevOps-Python-tools/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/harisekhon/devops-python-tools?logo=github)](https://github.com/HariSekhon/DevOps-Python-tools/network)
@@ -70,8 +69,12 @@ Hari Sekhon - DevOps Python Tools
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-FCA121?logo=gitlab)](https://gitlab.com/HariSekhon/DevOps-Python-tools)
 [![Repo on BitBucket](https://img.shields.io/badge/repo-BitBucket-0052CC?logo=bitbucket)](https://bitbucket.org/HariSekhon/DevOps-Python-tools)
 [![ShellCheck](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/shellcheck.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/shellcheck.yaml)
+[![JSON](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/json.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/json.yaml)
+[![YAML](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/yaml.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/yaml.yaml)
+[![XML](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/xml.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/xml.yaml)
 [![Validation](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/validate.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/validate.yaml)
 [![Semgrep](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/semgrep.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/semgrep.yaml)
+[![Semgrep Cloud](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/semgrep-cloud.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/semgrep-cloud.yaml)
 [![Kics](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/kics.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/kics.yaml)
 
 [![Docker Build (Alpine)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/docker_pytools_alpine.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/docker_pytools_alpine.yaml)
@@ -81,8 +84,9 @@ Hari Sekhon - DevOps Python Tools
 [![Docker Build (Ubuntu)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/docker_pytools_ubuntu.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/docker_pytools_ubuntu.yaml)
 
 [![GitHub Actions Ubuntu](https://github.com/HariSekhon/DevOps-Python-tools/workflows/GitHub%20Actions%20Ubuntu/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions?query=workflow%3A%22GitHub+Actions+Ubuntu%22)
-[![Mac](https://github.com/HariSekhon/DevOps-Python-tools/workflows/Mac/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions?query=workflow%3A%22Mac%22)
-[![Mac 10.15](https://github.com/HariSekhon/DevOps-Python-tools/workflows/Mac%2010.15/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions?query=workflow%3A%22Mac+10.15%22)
+[![Mac](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/mac.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/mac.yaml)
+[![Mac 11](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/mac_11.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/mac_11.yaml)
+[![Mac 12](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/mac_12.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions/workflows/mac_12.yaml)
 [![Ubuntu](https://github.com/HariSekhon/DevOps-Python-tools/workflows/Ubuntu/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions?query=workflow%3A%22Ubuntu%22)
 [![Ubuntu 14.04](https://github.com/HariSekhon/DevOps-Python-tools/workflows/Ubuntu%2014.04/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions?query=workflow%3A%22Ubuntu+14.04%22)
 [![Ubuntu 16.04](https://github.com/HariSekhon/DevOps-Python-tools/workflows/Ubuntu%2016.04/badge.svg)](https://github.com/HariSekhon/DevOps-Python-tools/actions?query=workflow%3A%22Ubuntu+16.04%22)
@@ -474,9 +478,9 @@ which will start with the underlying libraries, then move on to top level integr
 
 Patches, improvements and even general feedback are welcome in the form of GitHub pull requests and issue tickets.
 
-### See Also ###
+## Related Repositories
 
-- [DevOps Bash Tools](https://github.com/HariSekhon/DevOps-Bash-tools) - 700+ DevOps Bash Scripts, Advanced `.bashrc`, `.vimrc`, `.screenrc`, `.tmux.conf`, `.gitconfig`, CI configs & Utility Code Library - AWS, GCP, Kubernetes, Docker, Kafka, Hadoop, SQL, BigQuery, Hive, Impala, PostgreSQL, MySQL, LDAP, DockerHub, Jenkins, Spotify API & MP3 tools, Git tricks, GitHub API, GitLab API, BitBucket API, Code & build linting, package management for Linux / Mac / Python / Perl / Ruby / NodeJS / Golang, and lots more random goodies
+- [DevOps Bash Tools](https://github.com/HariSekhon/DevOps-Bash-tools) - 800+ DevOps Bash Scripts, Advanced `.bashrc`, `.vimrc`, `.screenrc`, `.tmux.conf`, `.gitconfig`, CI configs & Utility Code Library - AWS, GCP, Kubernetes, Docker, Kafka, Hadoop, SQL, BigQuery, Hive, Impala, PostgreSQL, MySQL, LDAP, DockerHub, Jenkins, Spotify API & MP3 tools, Git tricks, GitHub API, GitLab API, BitBucket API, Code & build linting, package management for Linux / Mac / Python / Perl / Ruby / NodeJS / Golang, and lots more random goodies
 
 - [SQL Scripts](https://github.com/HariSekhon/SQL-scripts) - 100+ SQL Scripts - PostgreSQL, MySQL, AWS Athena, Google BigQuery
 
@@ -484,9 +488,11 @@ Patches, improvements and even general feedback are welcome in the form of GitHu
 
 - [Kubernetes configs](https://github.com/HariSekhon/Kubernetes-configs) - Kubernetes YAML configs - Best Practices, Tips & Tricks are baked right into the templates for future deployments
 
-- [The Advanced Nagios Plugins Collection](https://github.com/HariSekhon/Nagios-Plugins) - 450+ programs for Nagios monitoring your Hadoop & NoSQL clusters. Covers every Hadoop vendor's management API and every major NoSQL technology (HBase, Cassandra, MongoDB, Elasticsearch, Solr, Riak, Redis etc.) as well as message queues (Kafka, RabbitMQ), continuous integration (Jenkins, Travis CI) and traditional infrastructure (SSL, Whois, DNS, Linux)
+- [Terraform](https://github.com/HariSekhon/Terraform) - Terraform templates for AWS / GCP / Azure / GitHub management
 
 - [DevOps Perl Tools](https://github.com/harisekhon/perl-tools) - 25+ DevOps CLI tools for Hadoop, HDFS, Hive, Solr/SolrCloud CLI, Log Anonymizer, Nginx stats & HTTP(S) URL watchers for load balanced web farms, Dockerfiles & SQL ReCaser (MySQL, PostgreSQL, AWS Redshift, Snowflake, Apache Drill, Hive, Impala, Cassandra CQL, Microsoft SQL Server, Oracle, Couchbase N1QL, Dockerfiles, Pig Latin, Neo4j, InfluxDB), Ambari FreeIPA Kerberos, Datameer, Linux...
+
+- [The Advanced Nagios Plugins Collection](https://github.com/HariSekhon/Nagios-Plugins) - 450+ programs for Nagios monitoring your Hadoop & NoSQL clusters. Covers every Hadoop vendor's management API and every major NoSQL technology (HBase, Cassandra, MongoDB, Elasticsearch, Solr, Riak, Redis etc.) as well as message queues (Kafka, RabbitMQ), continuous integration (Jenkins, Travis CI) and traditional infrastructure (SSL, Whois, DNS, Linux)
 
 - [HAProxy Configs](https://github.com/HariSekhon/HAProxy-configs) - 80+ HAProxy Configs for Hadoop, Big Data, NoSQL, Docker, Elasticsearch, SolrCloud, HBase, Cloudera, Hortonworks, MapR, MySQL, PostgreSQL, Apache Drill, Hive, Presto, Impala, ZooKeeper, OpenTSDB, InfluxDB, Prometheus, Kibana, Graphite, SSH, RabbitMQ, Redis, Riak, Rancher etc.
 

@@ -22,6 +22,7 @@ on:
     paths:
       - '**/*.yml'
       - '**/*.yaml'
+      - .github/workflows/yaml.yaml
   pull_request:
     branches:
       - master
@@ -29,6 +30,7 @@ on:
     paths:
       - '**/*.yml'
       - '**/*.yaml'
+      - .github/workflows/yaml.yaml
   workflow_dispatch:
     inputs:
       debug:
@@ -52,3 +54,5 @@ jobs:
     if: github.repository_owner == 'HariSekhon'
     name: Check YAML
     uses: HariSekhon/GitHub-Actions/.github/workflows/yaml.yaml@master
+    with:
+      debug: ${{ github.event.inputs.debug }}
